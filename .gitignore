@@ -1,0 +1,25 @@
+# --- Python/Django ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+backend/.env.local
+
+# --- PostgreSQL / Data ---
+# Never push actual data or local dumps
+*.sql
+*.dump
+backend/media/
+backend/static/
+
+# --- React / Node ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+.vscode/
